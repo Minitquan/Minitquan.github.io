@@ -204,6 +204,17 @@ em{
   z-index: -1;
   /*overflow: hidden;*/
 }
+.video_background{
+  position: absolute;
+  top: 0%;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  z-index: -2;
+  color: black;
+  background: black;
+}
 
 .btn-circle {
   font-size: 26px;
