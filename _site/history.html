@@ -1,20 +1,58 @@
----
-
----
 <!DOCTYPE html>
 <html lang="en">
 
-  {%include head.html page_name = "Visit - "%}
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Minh-Quan Nguyen">
+
+  <title>History - Landing Craft Support Museum</title>
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/grayscale.css" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+  <link href='https://fonts.googleapis.com/css?family=Quantico:700' rel='stylesheet' type='text/css'/>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet" type = 'text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type = 'text/css'>
+</head>
+
   <body id="page-top">
-    {% include navbar.html %}
-    <<h5 class="content-header">Visit the Museum</h5>
-      <section id="visit_information" class="content-section text-center">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100458.6074089559!2d-122.31978608406992!3d38.10922196074218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808574a3763ba953%3A0xd1d04a9d3d8e3e1e!2sUSS+LCS(L)(3)-102!5e0!3m2!1sen!2sus!4v1504630894333" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="/index.html">Home</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      MENU
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/history.html">History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/news.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/visit.html">Visit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <<h5 class="content-header">History of the Mighty Midgets</h5>
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100458.6074089559!2d-122.31978608406992!3d38.10922196074218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808574a3763ba953%3A0xd1d04a9d3d8e3e1e!2sUSS+LCS(L)(3)-102!5e0!3m2!1sen!2sus!4v1504630894333" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <h2>About Grayscale</h2>
             <p>Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
               <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
             <p>This theme features stock photos by
@@ -24,7 +62,7 @@
             <p>Landing Craft Support (Large) ships were developed to support amphibious landings and to intercept inter-island barge traffic.  Used solely in the Pacific
 Theater of operations, they were a further development of gunboats that had been converted from Landing Craft Infantry ships - LCIs.
 
-The need for a close-fire support vessel was demonstrated during the assault on Tarawa on 20 November 1944. After the larger ships had shelled the
+The need for a close-fire support vessel was demonstrated during the assault on Tarawa on <em>20 November 1944.</em> After the larger ships had shelled the
 beaches and landing zones to disrupt enemy defense efforts, the landing craft headed for shore to deliver the troops. During the time that the naval
 bombardment had stopped and the troops had landed, the enemy had time to regroup, and the effect on the Marines was deadly.  In order to deliver fire
 support to protect them, a new type of vessel was necessary.  It needed the ability to get in close to shore and had to have sufficient armament to support
@@ -83,9 +121,61 @@ early as 1942, and the first contracts for the new fire support vessel had been 
       </div>
     </section>
 
-    {%include footer.html%}
-    {%include scripts.html%}
+    <footer>
+  <div class="footerBackground">
+  <div class="container-fluid">
+    <div class= "row">
+      <div class="col-xs-1 col-md-2">
+        <h5 class= "footerLogo"> 102 </h5>
+      </div>
+      <div class="col-xs-1 col-md-3">
+          <div class="footerContent">
+            <strong>Landing Craft Support Museum</strong><br>
+            Mare Island Shipyard<br>
+            *insert # here*<br>
+            Vallejo, CA *zip*<br>
+            <abbr title="Phone">P:</abbr> (123) 456-7890
+          </div>
+      </div>
+      <div class="col-xs-1 col-md-3 text-center">
+          <div class="footerContent">
+            <strong>Opening Hours:</strong><br>
+            Tuesday: 9 AM to 3 PM<br>
+            Thursday: 9 AM to 3 PM<br>
+            Saturday: 9 AM to 3 PM<br>
+            <strong>Admission is Free</strong>
+          </div>
+      </div>
+      <div class="col-xs-4 col-md-4">
+          <div class="footerContent">
+            <strong>Find us on Social Media!</strong><br>
+            Facebook<br>
+            G+<br>
+            askfskjfdlkljldks<br>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <p class="text-center">Copyright &copy; Landing Craft Support Museum Corporation 2017
+        <br>Website Developed by Minh-Quan Nguyen </p>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+
+    <!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/grayscale.min.js"></script>
+
 
   </body>
-
 </html>

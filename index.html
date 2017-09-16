@@ -1,44 +1,21 @@
+---
+
+---
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="The Landing Craft Support Museum">
-    <meta name="author" content="Minh-Quan Nguyen">
-
-    <title>Landing Craft Support Museum</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href='https://fonts.googleapis.com/css?family=Quantico:700,700i' rel='stylesheet' type='text/css'/>
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet" type = 'text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type = 'text/css'>
-
-    <!-- Custom styles for this template -->
-    <!-- <link href="css/grayscale.min.css" rel="stylesheet"> MQ_MOD -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
-  </head>
-
+  {%include head.html page_name = ""%}
   <body id="page-top">
-
-    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
+          MENU
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="/about.html">History</a>
+              <a class="nav-link js-scroll-trigger" href="/history.html">History</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="/news.html">News</a>
@@ -47,43 +24,36 @@
               <a class="nav-link js-scroll-trigger" href="/visit.html">Visit</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="/contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Intro Header -->
-
     <header class="masthead">
       <div class="intro-body" >
         <div class="video_background">
-        <video autoplay loop muted class="masthead__video" poster=black>
+        <video autoplay loop muted class="masthead__video" poster="/img/video-placeholder.jpg">
           <source src = "/img/LCS.mp4" type = "video/mp4">
           </video>
         </div>
         <div class="container">
           <div class="row">
-
             <div class="col-lg-12 mx-auto">
-
               <h6 class="brand-heading">USS LCS-102</h1>
               <p class="intro-text">THE LANDING CRAFT SUPPORT MUSEUM</p>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
-
             </div>
           </div>
         </div>
-
       </div>
     </header>
-    <div class="darkgreycard">
-    </div>
 
-    <!-- About Section -->
+    <div class="banner"></div>
+
     <section id="about" class="content-section text-center">
       <div class="container">
         <div class="row">
@@ -101,14 +71,6 @@
       </div>
     </section>
 
-    <!-- Download Section -->
-
-    <section id="download" class="download-section content-section text-center">
-      <div class="container">
-
-      </div>
-    </section>
-
 <!--
     <section id="download" class="download-section content-section text-center">
       <div class="container">
@@ -119,66 +81,22 @@
         </div>
       </div>
     </section>
-
   -->
 
-    <!-- Contact Section -->
     <section id="contact" class="content-section text-center">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact Start Bootstrap</h2>
-            <p>Feel free to leave us a comment on the
-              <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a>
-              on Start Bootstrap to give some feedback about this theme!</p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
-                  <i class="fa fa-google-plus fa-fw"></i>
-                  <span class="network-name">Google+</span>
-                </a>
-              </li>
-            </ul>
+          <div class="col-md-6" style="background-color:yellow;">
+          </div>
+          <div class="col-md-6" style="background-color:pink;">
+
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; Landing Craft Support Museum Corporation 2017</p>
-        <p>Website Developed by Minh-Quan Nguyen </p>
-        </div
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
-
+    {%include footer.html%}
+    {%include scripts.html%}
 
   </body>
-
 </html>
