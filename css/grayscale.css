@@ -24,7 +24,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Anton', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 200;
@@ -181,9 +181,10 @@ background-size: cover;*/ }
     .masthead .intro-body .brand-heading {
       font-size: 50px; }
     .masthead .intro-body .intro-text {
-      font-family: 'Fjalla One', sans-serif;
-      font-size: 50px;
+      font-family: 'Anton', sans-serif;
+      font-size: 30px;
       color:/*#5a78c9;*/#F4B21B;
+      font-weight: 400;
       -webkit-text-stroke: 2px black;
 
     }
