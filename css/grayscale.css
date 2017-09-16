@@ -207,10 +207,10 @@ background-size: cover;*/ }
     }
 
     .masthead .intro-body .intro-text {
-      line-height: 60px;
+      line-height: 100px;
       font-family: 'Anton', sans-serif;
       font-size: 30px;
-      color:/*#5a78c9;*/#F4B21B;
+      color:/*#5a78c9;/#F4B21B*/ white;
       font-weight: 100;
       -webkit-text-stroke: 0px black;
       text-shadow:
