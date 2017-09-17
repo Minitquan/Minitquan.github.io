@@ -11,12 +11,13 @@ body {
   height: 100%;
   color: black;
   background-color: #999999;
-  overflow-x:hidden;}
+}
 
 
 html {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
 h1,
 h2,
@@ -160,7 +161,7 @@ em{
 .banner {
         position: relative;
         display: inline-block;
-        top: 0px;
+        top: -25px;
         width: auto;
         min-width: 100%;
         height: 150px;
@@ -171,8 +172,8 @@ em{
 .masthead {
   display: table;
   width: 100%;
-  height: 600px;
-  padding: 50px 0px;
+  height: 100%;
+  margin-top: 0%;
   text-align: center;
   color: white;
   background: rgba(0, 0, 0, 0.6) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAFFJREFUGBmNjcENwCAMA11WYv8RuhO4StER8gAJkZxPRpL6vDzeK0ZnE7K8xCo4GIHnvOsJ+EYvBaPFWwjXD5vKr9lE+ecV+zIGnI/QwEKW+gDCdwb/LYgRmgAAAABJRU5ErkJggg==) repeat;
@@ -230,8 +231,8 @@ background-size: cover;*/ }
     }
   @media (min-width: 768px) {
     .masthead {
-      height: 750px;
-      padding-top: 100px;
+      height: 600px;
+      padding-top: 50px;
     }
       .masthead .intro-body .brand-heading {
         font-size: 120px;
@@ -258,19 +259,28 @@ background-size: cover;*/ }
 
 .masthead__video{
   position: absolute;
-  top: 375px;
+  top: 50%;
   min-width: 100%;
-  height: 750px;
+  height: 800px;
   transform: translateX(-50%) translateY(-50%);
   z-index: -1;
 
 }
 
+.masthead-text{
+  position: absolute;
+  top: 30%;
+  min-width: 100%;
+  margin: 0 auto;
+  display: table;
+}
+
 .video_background{
-    top: 200px;
+    position: relative;
+    top: -100%;
     width: auto;
     min-width: 100%;
-    height: relative;
+    height: 800px;
     z-index: -2;
     color: black;
     background: black;
