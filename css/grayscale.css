@@ -19,9 +19,22 @@ html {
   height: 100%;
 }
 
-h1,
-h2,
-h3,
+h1 {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 200;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  color: black;
+}
+h3 {
+  font-family: 'Oleo Script Swash Caps', cursive;;
+  color:black;
+}
 h4 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
@@ -63,13 +76,13 @@ h6 {
   }
 
 p {
-  font-size: 30px;
+  font-size: 18px;
   line-height: 1.5;
   margin: 0 0 25px; }
   @media (min-width: 768px) {
     p {
       font-size: 18px;
-      line-height: 1.6;
+      line-height: 2;
       margin: 0 0 35px; } }
 
 a {
@@ -319,13 +332,20 @@ background-size: cover;*/ }
   text-align: center;
   padding-top: 70px;
   padding-bottom: 0px;
-  border: 2px solid white;
 }
 @media (min-width: 992px) {
   .content-header{
     font-size: 75px;
-    border: 2px solid red;
   }
+}
+
+.debug{
+  border: 2px solid white;
+}
+@media (min-width: 992px){
+  .debug{
+  border: 2px solid red;
+}
 }
 
 .download-section {
@@ -340,17 +360,19 @@ background-size: cover;*/ }
 .content-section {
   padding-top: 25px;
   padding-bottom: 150px;
-  border: 2px solid white;
 }
 @media (min-width: 992px) {
   .content-section {
     padding-top: 25px;
     padding-bottom: 50px;
-    border: 2px solid red;
   }
 }
 
 .map-backing{
+}
+
+.volunteer-bio{
+
 }
 
 .map{
