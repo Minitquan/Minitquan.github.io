@@ -98,10 +98,17 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: blue; }
+  color: #32127A;
+  text-decoration: none;
+  text-decoration-style:dashed;
+}
   a:focus, a:hover {
     text-decoration: none;
     color: #1d9b6c; }
+
+a.hyperlink{
+  text-decoration:underline;
+}
 
 b {
   font-family: 'Quantico', sans-serif;
@@ -133,7 +140,7 @@ em{
   -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
   -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
   transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-  box-shadow: 0 0px 15px 15px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 20px 5px rgba(0,0,0,0.75);
   text-shadow: 2px 2px 1px rgba(0,0,0,1);
 }
 
@@ -201,7 +208,16 @@ em{
         min-width: 100%;
         height: 150px;
         background-color: #7a7a7a;
-        box-shadow: 0 0px 60px 30px rgba(0,0,0,0.85);*/
+        box-shadow: 0 0px 60px 20px rgba(0,0,0,0.85);
+}
+
+.caution{
+    min-width: 100%;
+    overflow: hidden;
+    background-image:url("../img/cautiontile.jpg");
+    box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.85);
+    height: 32px;
+    margin-bottom: 40px;
 }
 
 .masthead {
@@ -449,6 +465,10 @@ ul.banner-social-buttons {
       ul.banner-social-buttons li:last-child {
         margin-bottom: 0; } }
 
+li{
+  display:inline-block;
+}
+
 footer {
   padding-top: 25px 0;
   }
@@ -472,7 +492,7 @@ footer {
   min-width: 100%;
   height: auto;
   background-color: #7a7a7a;
-  box-shadow: 0 0px 40px 15px rgba(0,0,0,0.85);
+  box-shadow: 0px 5px 40px 5px rgba(0,0,0,0.85);
   border-color: 2px solid red;
   padding-top: 25px;
   padding-bottom: 25px;
